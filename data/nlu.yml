@@ -39,6 +39,8 @@ nlu:
     - of course
     - that sounds good
     - correct
+    - why not
+    - sure
 
 - intent: deny
   examples: |
@@ -50,39 +52,31 @@ nlu:
     - no way
     - not really
 
-- intent: mood_great
+- intent: learn
   examples: |
-    - perfect
-    - great
-    - amazing
-    - feeling like a king
-    - wonderful
-    - I am feeling very good
-    - I am great
-    - I am amazing
-    - I am going to save the world
-    - super stoked
-    - extremely good
-    - so so perfect
-    - so good
-    - so perfect
+    - alm learn
+    - alm learning material
+    - what is alm
+    - what is devops
+    - what can i learn
+    - azure devops learning material
+    - azure devops
+    - learn azure
+    - learn devops
+    - devops learning material 
 
-- intent: mood_unhappy
+- intent: buhler
   examples: |
-    - my day was horrible
-    - I am sad
-    - I don't feel very well
-    - I am disappointed
-    - super sad
-    - I'm so sad
-    - sad
-    - very sad
-    - unhappy
-    - not good
-    - not very good
-    - extremly sad
-    - so saad
-    - so sad
+    - what is buhler?
+    - what is bühler?
+    - where am i working?
+    - do you know buhler?
+    - buhler?
+    - bühler?
+    - where am i?
+    - where is buhler located?
+    - where are you working at?
+
 
 - intent: bot_challenge
   examples: |
@@ -90,14 +84,3 @@ nlu:
     - are you a human?
     - am I talking to a bot?
     - am I talking to a human?
-
-- intent: faq
-  examples: |
-    - what is bühler?
-    - bühler?
-    - what is buhler?
-    - buhler?
-    - do you know buhler?
-    - do you know bühler?
-    - bühler ag?
-    - what is the bühler groups?
