@@ -21,3 +21,8 @@ rules:
   steps:
   - intent: buhler
   - action: utter_buhler
+
+- rule: Tell the time when user asks
+  steps:
+  - intent: give_time
+  - action: action_show_time

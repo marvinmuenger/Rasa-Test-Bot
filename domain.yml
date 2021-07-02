@@ -8,6 +8,10 @@ intents:
   - bot_challenge
   - learn
   - buhler
+  - give_time
+
+actions:
+  - action_show_time
 
 responses:
   utter_greet:
